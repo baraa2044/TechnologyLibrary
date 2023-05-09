@@ -1,0 +1,104 @@
+body{
+    background-image: url("../images/Log_in.png");
+    background-size: cover;
+    display: flex;
+    color: white;
+}
+@font-face {
+    font-family: 'my_font';
+    src: url(../fonts/Awkward.ttf);
+}
+
+
+
+
+/* Video icon */
+.v_icon{
+    /* Video icon */
+    position: absolute;
+    left: 5%;
+    border-radius: 50%;
+    --main_color:rgb(2, 61, 172);
+    --arrow_color:black;
+    border: 30px solid var(--main_color);
+}
+.v_icon_arrow{
+    /* Video icon */
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -28px;
+    z-index: 10;
+    height: 0;
+    width: 0;
+    border-top:12px solid var(--main_color);  
+    border-right: 25px solid var(--arrow_color);  
+    border-bottom:12px solid var(--main_color);  
+    border-left:12px solid var(--main_color) ; 
+}
+
+
+
+
+
+.title_tech{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    font-size: 150px;
+    font-family:'my_font' ;
+}
+.title_tech span{
+    color:rgb(0, 195, 255);
+    margin-left: 140px;
+}
+
+
+/* style form section */
+
+.form_cont{
+    display: flex;
+    position:absolute;
+    top: 20%;
+    right: 8%;
+    height: 700px;
+    font-size: 20px;
+}
+.form_cont label{
+    font-weight: bold;
+    margin: 6px;
+}
+form #log{
+    margin: 10px auto auto 130px;
+    width: 100px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+input{
+    height: 25px;
+    width: 200px;
+    margin-top: 10px;
+    background-color: transparent;
+
+}
+form p{
+    text-align: center;
+    margin: 30px 0px 0px 75px;
+}
+.ac_or{
+    top:5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.reg_txt{
+    font-weight: bold;
+    font-style: italic;
+}
+.icons_form_ft{
+    position:absolute;
+    margin: 300px 0 auto 50px;
+}
+.icons_form_ft a{
+    margin: 15px;
+}

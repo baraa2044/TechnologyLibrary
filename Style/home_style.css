@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: 'main_color';
+    src: url(../fonts/Awkward.ttf);
+}
+input:focus {
+    outline-color:transparent ;
+}
+
+
+/* The top header in the home page  */
+.header_1_first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px 10px;
+}
+.header_1_first nav{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header_1_first a[class=button]{
+    font-family: 'main_color' ;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 5px 20px;
+    background-color: rgb(2, 2, 136);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+/* the top of the center of the page */
+
+.top_center_cont{
+    display: flex;
+    justify-content: center;
+}
+.top_center_cont p{
+    font-family: 'main_color' ;
+    margin-left: 15px;
+    color:  #1c4e91;
+    font-size: 50px;
+    font-style: italic;
+}
+.top_center_cont input{
+    background-color: #1c4e91;
+    color: white;
+    width: 380px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 15px;    
+}
+
+.title_of_cont{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(5, 5, 126);
+}
+.page_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+.page_cont div{
+    position: relative;
+    width: 23%;
+    padding-bottom: 50px;
+}
+.page_cont div img{
+    width: 100%;
+    height: 400px;
+}
+.page_cont div input{
+    position: absolute;
+    left: 35%;
+    color: white;
+    padding: 5px;
+    width: 130px;
+    margin-top: 80px;
+    font-size: 18px;
+    bottom: 20px;
+    border-radius: 25px;
+    background-color: #00b7ff;
+}
+
